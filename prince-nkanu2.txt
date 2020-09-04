@@ -1,0 +1,53 @@
+1. What is the difference between Git an Github?
+   
+  Git is a distributed peer-peer version control system designed to handle everthing       from small to very large projects with speed and efficiency; Obviously Git is foused on the task of version control. It maintains a commit history, it allows you to reverse changes  through reset and revert commands, and allows you to share code with other developers through push and pull commands. On the other hand; Github is a web-based Git repository hosting service, which offers all of the distributed revision control and source code management (SCM) functionality of Git as well a adding its own features. Github allows you to; share your respositories with others, access other user's repositories, and store remote copies of your repositories via github servers as backup of your local copies.
+
+2. What are the benefits of using version control systems?
+
+   Version control systems keeps track of every modification to the code in a special kind    of database. Just in case mistakes occurs, developers can revert and compare earlier    versions of the code to help fix the mistake. Also, version control helps teams track    every individual change by each contributor and helping prevent concurrent work from    conflicting.
+
+3.What Language is used in Git?
+  
+  There are no specific language used in Git, however any high level language can be used,   e.g Python, Java, C#,PHP.
+
+4.Mention the various Git repository Hosting Service Providers?
+
+  Git repository hosting service providers may include;
+  i. Gitbucket
+  ii. Gitlab
+  iii. GitHub 
+  iv. Launchpad
+
+5. What is a repository in Git?
+
+   Repository in Git co ntains a collecion of files of various different version of a         project. These files are imported from the repository into the local server of the user    for further updatig and modifications in the content of the file.
+
+6. How can you create Repository in Git?
+
+   i. Create a directory to contain the project
+   ii. Go into new directory 
+  iii. Type git init
+  iv. Write some code
+  v. Type git add to add the file 
+  vi. Type Git commit
+
+7. Name a few Git commands and explain their usage?
+   
+   i. gitconfig; 
+       Usage: -global user.name "yourname"
+   ii. gitinit;
+        Usage: use to open new repository
+   iii. git clone: 
+        Usage: This command is used to obtain a repository from an existing URL
+   iv. git commit (-m): 
+       Usage: This command records the file permanently in the version history.
+
+8. What is Git?
+   Git is a free, open-source distributed version control system. It  keeps track of       projects and files as they change over time with the help different contributors.
+
+9.  What is a .git directory?
+    The .git directory contains all the information that is necessary for your project in     version control and all the information about commit, remote repository address,etc.       All of them are present in this folder. It also contains  log that stores your commit      history so that you can roll back history.
+
+10. What happens if the .git directory gets deleted?
+    
+    If the .git/ directory gets deleted, then you will loose track of your        project's history. The repository will no longer be under version control.
